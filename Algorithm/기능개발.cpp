@@ -12,7 +12,7 @@ vector<int> solution(vector<int> progresses, vector<int> speeds) {
 	for (int i = progresses.size()-1; i >=0; i--)
 		prgStack.push(ceil((double)(100 - progresses[i]) / speeds[i]));
 
-	while(!prgStack.empty()) {//스택의 크기가 변해서 애먹었음
+	while(!prgStack.empty()) {//스택의 크기가 변해,,
 		int top = prgStack.top();
 		prgStack.pop();
 		int funcNum = 1;

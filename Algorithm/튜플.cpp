@@ -3,10 +3,10 @@
 
 using namespace std;
 
-int solution(string name) {
-	int answer = 0;
+vector<int> solution(string s) {
+	vector<int> answer;
 
-
+	
 
 
 	return answer;
