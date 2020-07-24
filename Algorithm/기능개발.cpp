@@ -1,3 +1,6 @@
+// https://programmers.co.kr/learn/courses/30/lessons/42586
+// stack, ?
+
 #include <string>
 #include <vector>
 #include <stack>

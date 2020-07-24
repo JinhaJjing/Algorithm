@@ -1,3 +1,6 @@
+// https://programmers.co.kr/learn/courses/30/lessons/62048
+// 패턴찾기
+
 using namespace std;
 
 int gcd(int a, int b) {
