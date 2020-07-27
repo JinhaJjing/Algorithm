@@ -1,5 +1,5 @@
-// https://programmers.co.kr/learn/courses/30/lessons/1845
-// ±¸Çö
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/1845
+// êµ¬í˜„
 
 #include <vector>
 #include <set>
@@ -16,4 +16,4 @@ int solution(vector<int> nums)
 	answer = nums.size() / 2 >= type.size() ? type.size() : nums.size()/2;
 
 	return answer;
-}//ÀÌ°Ô ¿Ö lv2ÀÎ°¡..?
+}//ì´ê²Œ ì™œ lv2ì¸ê°€..?

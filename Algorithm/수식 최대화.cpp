@@ -1,5 +1,5 @@
-// https://programmers.co.kr/learn/courses/30/lessons/67257
-// stack, ¿ÏÀüÅ½»ö/¼ø¿­
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/67257
+// stack, ì™„ì „íƒìƒ‰/ìˆœì—´
 
 #include <string>
 #include <vector>
@@ -11,7 +11,7 @@
 using namespace std;
 
 
-// ¹¹°¡ Æ²¸°°ÇÁö ¸øÃ£°Ú¤§ ¤¿ ²Ò ²¿¤© ¤Ó
+// ë­ê°€ í‹€ë¦°ê±´ì§€ ëª»ì°¾ê² ã„· ã… ê¾€ ê¼¬ã„¹ ã…£
 
 
 int findOperationPrior(vector<char> operations, char operation) {
@@ -28,14 +28,14 @@ long long solution(string expression) {
 	stack<int> operand;
 
 	do {
-		// ¼ıÀÚ¶û ¿¬»êÀÚ ÂÉ°³¼­ stack¿¡ ´ã±â
+		// ìˆ«ìë‘ ì—°ì‚°ì ìª¼ê°œì„œ stackì— ë‹´ê¸°
 		string num = "";
 		for (char c : expression) {
 			if (c == '*' || c == '-' || c == '+') {
 				operand.push(stoi(num));
 				num = "";
 
-				// ¿¬»êÀÚ ÀÎµ¦½º°¡ Å«°ÅºÎÅÍ °è»ê
+				// ì—°ì‚°ì ì¸ë±ìŠ¤ê°€ í°ê±°ë¶€í„° ê³„ì‚°
 				while (!op.empty() && findOperationPrior(operations, c) >= findOperationPrior(operations, op.top())) {
 					char o = op.top();
 					op.pop();
@@ -51,7 +51,7 @@ long long solution(string expression) {
 					}
 				}
 					
-				//¿ì¼±¼øÀ§¿¡ µû¶ó ½ºÅÃ¿¡ push
+				//ìš°ì„ ìˆœìœ„ì— ë”°ë¼ ìŠ¤íƒì— push
 				op.push(c);
 			}
 			else {
@@ -60,7 +60,7 @@ long long solution(string expression) {
 		}
 
 		operand.push(stoi(num));
-		// ¸¶Áö¸· ¿¬»êÀÚ ÅĞÀÌ
+		// ë§ˆì§€ë§‰ ì—°ì‚°ì í„¸ì´
 		while (!op.empty()) {
 			char o = op.top();
 			op.pop();
@@ -76,11 +76,11 @@ long long solution(string expression) {
 			}
 		}
 
-		// answer¾÷µ¥ÀÌÆ®
+		// answerì—…ë°ì´íŠ¸
 		if (abs(operand.top())>abs(answer)) {
 			answer = abs(operand.top());
 		}
-		// ¿¬»êÀÚ ¿ì¼±¼øÀ§°¡ °ğ operations¼ø¼­
+		// ì—°ì‚°ì ìš°ì„ ìˆœìœ„ê°€ ê³§ operationsìˆœì„œ
 	} while (next_permutation(operations.begin(), operations.end()));
 
 	return answer;

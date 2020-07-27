@@ -1,5 +1,5 @@
-// https://programmers.co.kr/learn/courses/30/lessons/60057
-// ¹®ÀÚ¿­
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/60057
+// ë¬¸ìì—´
 
 #include <string>
 #include <vector>
@@ -17,19 +17,19 @@ int solution(string s) {
 		for (int curposition = i; curposition < s.length(); curposition+=i) {
 			curstr = s.substr(curposition, i);
 
-			if (!(stdstr.compare(curstr))) //¹®ÀÚ¿­ °°À¸¸é
+			if (!(stdstr.compare(curstr))) //ë¬¸ìì—´ ê°™ìœ¼ë©´
 				count++;
-			else { //¹®ÀÚ¿­ ´Ù¸£¸é
-				stdstr = curstr; //»õ·Î¿î ±âÁØ¹®ÀÚ¿­
+			else { //ë¬¸ìì—´ ë‹¤ë¥´ë©´
+				stdstr = curstr; //ìƒˆë¡œìš´ ê¸°ì¤€ë¬¸ìì—´
 				if (count >= 2) {
-					curLength = curLength - i * (count - 1) + to_string(count).length();// count¼ıÀÚÀÇ ±æÀÌ¸¸Å­
+					curLength = curLength - i * (count - 1) + to_string(count).length();// countìˆ«ìì˜ ê¸¸ì´ë§Œí¼
 				}
 				count = 1;
 			}
 
 			if (curposition + i >= s.length()) {
 				if (count >= 2) {
-					curLength = curLength - i * (count - 1) + to_string(count).length();// count¼ıÀÚÀÇ ±æÀÌ¸¸Å­
+					curLength = curLength - i * (count - 1) + to_string(count).length();// countìˆ«ìì˜ ê¸¸ì´ë§Œí¼
 				}
 			}
 

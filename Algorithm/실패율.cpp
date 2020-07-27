@@ -1,5 +1,5 @@
-// https://programmers.co.kr/learn/courses/30/lessons/42889
-// ºñ±³-Á¤·Ä, pair
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/42889
+// ë¹„êµ-ì •ë ¬, pair
 
 #include <string>
 #include <vector>
@@ -7,7 +7,7 @@
 
 using namespace std;
 
-//µÎ ¹øÂ° ºñ±³ Á¶°Çµµ Á¤È®È÷ ¸í½ÃÇØ¾ßÇßÀ½
+//ë‘ ë²ˆì§¸ ë¹„êµ ì¡°ê±´ë„ ì •í™•íˆ ëª…ì‹œí•´ì•¼í–ˆìŒ
 bool cmp(const pair<int, double> &a, const pair<int, double> &b)
 {
 	if (a.second != b.second) return a.second > b.second;
@@ -17,7 +17,7 @@ bool cmp(const pair<int, double> &a, const pair<int, double> &b)
 vector<int> solution(int N, vector<int> stages) {
 	vector<int> answer;
 	vector<pair<int, double>> percentage;
-	vector<int> successed(N); //vectorÇÒ´ç ¾ÈµÅ¼­ ´ëÀÔ¸øÇÏ±æ·¡ ¹Ì¸® ÇÒ´çÇÔ
+	vector<int> successed(N); //vectorí• ë‹¹ ì•ˆë¼ì„œ ëŒ€ì…ëª»í•˜ê¸¸ë˜ ë¯¸ë¦¬ í• ë‹¹í•¨
 	vector<int> challenging(N);
 	sort(stages.begin(), stages.end());
 

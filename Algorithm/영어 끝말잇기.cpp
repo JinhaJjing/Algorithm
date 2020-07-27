@@ -1,5 +1,5 @@
-// https://programmers.co.kr/learn/courses/30/lessons/12981
-// ±¸Çö
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/12981
+// êµ¬í˜„
 
 #include <string>
 #include <vector>
@@ -30,4 +30,4 @@ vector<int> solution(int n, vector<string> words) {
 		}
 	}
 	return { 0,0 };
-}//¸·Â«
+}//ë§‰ì§¬

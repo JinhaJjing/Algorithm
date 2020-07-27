@@ -88,6 +88,9 @@
       <Filter>소스 파일\나중에</Filter>
     </ClCompile>
     <ClCompile Include="방금그곡.cpp">
+      <Filter>소스 파일\미해결</Filter>
+    </ClCompile>
+    <ClCompile Include="압축.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

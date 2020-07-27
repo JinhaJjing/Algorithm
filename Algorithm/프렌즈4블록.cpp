@@ -1,5 +1,5 @@
-// https://programmers.co.kr/learn/courses/30/lessons/17679
-// ´ë¼Ò¹®ÀÚ, ±¸Çö
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/17679
+// ëŒ€ì†Œë¬¸ì, êµ¬í˜„
 
 #include <string>
 #include <vector>
@@ -9,46 +9,46 @@ using namespace std;
 
 int solution(int m, int n, vector<string> board) {
 	int answer = 0;
-	int dx[4] = { 0,1,1,0 };//½Ã°è¹æÇâ
+	int dx[4] = { 0,1,1,0 };//ì‹œê³„ë°©í–¥
 	int dy[4] = { 1,1,0,0 };
 	int nx, ny, popCount=1;
 
 	while (popCount > 0) {
 		popCount = 0;
 
-		//boardÇÑ¹ø ÈÈ±â
+		//boardí•œë²ˆ í›‘ê¸°
 		for (int x = 0; x < m-1; x++) {
 			for (int y = 0; y < n-1; y++) {
 				bool pop = true;
-				//4ºí·Ï È®ÀÎ
+				//4ë¸”ë¡ í™•ì¸
 				for (int idx = 0; idx < 4; idx++) {
 					char curFriend = board[x].at(y);
 					nx = x + dx[idx];
 					ny = y + dy[idx];
 					char newFriend = board[nx].at(ny);
 
-					//´ë¼Ò¹®ÀÚ ±¸ºĞ X, ÇÁ·»Áî°¡ ´Ù¸£¸é
+					//ëŒ€ì†Œë¬¸ì êµ¬ë¶„ X, í”„ë Œì¦ˆê°€ ë‹¤ë¥´ë©´
 					if (tolower(curFriend) != tolower(newFriend) || curFriend == ' ' || newFriend == ' ') {
 						pop = false;
 						break;
 					}
 				}
 
-				//¸ğµÎ °°Àº ÇÁ·»Áî¶ó¸é
+				//ëª¨ë‘ ê°™ì€ í”„ë Œì¦ˆë¼ë©´
 				if (pop) {
 					popCount++;
-					//4°³ÇÁ·»Áî ¼Ò¹®ÀÚÈ­
+					//4ê°œí”„ë Œì¦ˆ ì†Œë¬¸ìí™”
 					for (int index = 0; index < 4; index++) {
 						int nnx = nx + dx[index];
 						int nny = ny + dy[index];
-						if ((board[nnx].at(nny) >= 'A') && (board[nnx].at(nny) <= 'Z')) //´ë¹®ÀÚÇÁ·»Áî¸¸ Ä«¿îÆ®¿¡ ´õÇÔ
-							board[nnx].at(nny) = tolower(board[nnx].at(nny)); //¸¶Áö¸·¿¡ nx¿Í ny´Â ¿ø·¡ ÀÚ¸®·Î µ¹¾Æ¿À´Ï±î?
+						if ((board[nnx].at(nny) >= 'A') && (board[nnx].at(nny) <= 'Z')) //ëŒ€ë¬¸ìí”„ë Œì¦ˆë§Œ ì¹´ìš´íŠ¸ì— ë”í•¨
+							board[nnx].at(nny) = tolower(board[nnx].at(nny)); //ë§ˆì§€ë§‰ì— nxì™€ nyëŠ” ì›ë˜ ìë¦¬ë¡œ ëŒì•„ì˜¤ë‹ˆê¹Œ?
 					}
 				}
 			}
 		}
 
-		//ÅÍ¶ß¸®±â
+		//í„°ëœ¨ë¦¬ê¸°
 		for (int cx = 0; cx < m; cx++) {
 			for (int cy = 0; cy < n; cy++) {
 				if ((board[cx].at(cy) >= 'a') && (board[cx].at(cy) <= 'z')) {
@@ -58,9 +58,9 @@ int solution(int m, int n, vector<string> board) {
 			}
 		}
 
-		//ÇÁ·»Áî ¹Ù´ÚÀ¸·Î ³»¸®±â
-		//ÀÎµ¦½º »ı°¢ÇØ¾ßÇØ¼­ ¸Ó¸®·Î Àß ¾È±×·ÁÁü.. . Ææ ÇÊ¿ä
-		//¿©±â°¡ ÇÙ½É!?
+		//í”„ë Œì¦ˆ ë°”ë‹¥ìœ¼ë¡œ ë‚´ë¦¬ê¸°
+		//ì¸ë±ìŠ¤ ìƒê°í•´ì•¼í•´ì„œ ë¨¸ë¦¬ë¡œ ì˜ ì•ˆê·¸ë ¤ì§.. . íœ í•„ìš”
+		//ì—¬ê¸°ê°€ í•µì‹¬!?
 		for (int i = m - 1; i >= 0; i--) {
 			for (int j = 0; j < n; j++) {
 				if (board[i][j] == ' ') {
@@ -78,16 +78,16 @@ int solution(int m, int n, vector<string> board) {
 
 	return answer;
 }
-// ¹«½ÄÇÏ°Ô Â­³ªº¸´Ù.. 4°³ºí·ÏÀ» È®ÀÎÇÏ¸é ¹Ù·Î ¼Ò¹®ÀÚ·Î ¸¸µé°Ô²û ÇÏ¸é Áßº¹ÄÚµå°¡ ÁÙÀ½
+// ë¬´ì‹í•˜ê²Œ ì§¯ë‚˜ë³´ë‹¤.. 4ê°œë¸”ë¡ì„ í™•ì¸í•˜ë©´ ë°”ë¡œ ì†Œë¬¸ìë¡œ ë§Œë“¤ê²Œë” í•˜ë©´ ì¤‘ë³µì½”ë“œê°€ ì¤„ìŒ
 
 int main(void)
 {
 	//12
-	cout << "»ç¶óÁö´Â ºí·° ¼ö : " << solution(6, 2, { "DD", "CC", "AA", "AA", "CC", "DD" }) << "\n" << endl;
+	cout << "ì‚¬ë¼ì§€ëŠ” ë¸”ëŸ­ ìˆ˜ : " << solution(6, 2, { "DD", "CC", "AA", "AA", "CC", "DD" }) << "\n" << endl;
 	//8
-	cout << "»ç¶óÁö´Â ºí·° ¼ö : " << solution(8, 2, { "FF", "AA", "CC", "AA", "AA", "CC", "DD", "FF" }) << "\n" << endl;
+	cout << "ì‚¬ë¼ì§€ëŠ” ë¸”ëŸ­ ìˆ˜ : " << solution(8, 2, { "FF", "AA", "CC", "AA", "AA", "CC", "DD", "FF" }) << "\n" << endl;
 	//24
-	cout << "»ç¶óÁö´Â ºí·° ¼ö : " << solution(5, 6, { "AAAAAA", "BBAATB", "BBAATB", "JJJTAA", "JJJTAA" }) << "\n" << endl;
+	cout << "ì‚¬ë¼ì§€ëŠ” ë¸”ëŸ­ ìˆ˜ : " << solution(5, 6, { "AAAAAA", "BBAATB", "BBAATB", "JJJTAA", "JJJTAA" }) << "\n" << endl;
 	
 	return 0;
 }

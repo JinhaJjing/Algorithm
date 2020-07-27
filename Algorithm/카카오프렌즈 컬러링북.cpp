@@ -1,4 +1,4 @@
-// https://programmers.co.kr/learn/courses/30/lessons/1829
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/1829
 // BFS
 
 #include <vector>
@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int dx[4] = { -1,1,0,0 }; // »óÇÏÁÂ¿ì
+int dx[4] = { -1,1,0,0 }; // ìƒí•˜ì¢Œìš°
 int dy[4] = { 0,0,-1,1 };
 int visited[100][100] = {0, };
 queue<pair<int,int>> q;
@@ -26,7 +26,7 @@ int bfs(int m, int n, vector<vector<int>> picture) {
 			int ny = y + dy[i];
 			if (!(nx>=m || ny>=n || nx<0 || ny<0)) {
 				int cur_color = picture[nx][ny];
-				if (!visited[nx][ny] && std_color == cur_color) { // ¹æ¹®ÇÏÁö ¾ÊÀº °÷ÀÌ°í »ö±òÀÌ °°´Ù = È®Àå
+				if (!visited[nx][ny] && std_color == cur_color) { // ë°©ë¬¸í•˜ì§€ ì•Šì€ ê³³ì´ê³  ìƒ‰ê¹”ì´ ê°™ë‹¤ = í™•ì¥
 					q.push(make_pair(nx, ny));
 					visited[nx][ny] = true;
 					area++;
@@ -38,7 +38,7 @@ int bfs(int m, int n, vector<vector<int>> picture) {
 	return area;
 }
 
-// Àü¿ª º¯¼ö¸¦ Á¤ÀÇÇÒ °æ¿ì ÇÔ¼ö ³»¿¡ ÃÊ±âÈ­ ÄÚµå¸¦ ²À ÀÛ¼ºÇØÁÖ¼¼¿ä.
+// ì „ì—­ ë³€ìˆ˜ë¥¼ ì •ì˜í•  ê²½ìš° í•¨ìˆ˜ ë‚´ì— ì´ˆê¸°í™” ì½”ë“œë¥¼ ê¼­ ì‘ì„±í•´ì£¼ì„¸ìš”.
 vector<int> solution(int m, int n, vector<vector<int>> picture) {
 	int number_of_area = 0;
 	int max_size_of_one_area = 0;

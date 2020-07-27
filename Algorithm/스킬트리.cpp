@@ -1,5 +1,5 @@
-// https://programmers.co.kr/learn/courses/30/lessons/49993
-// ·ÎÁ÷ °í¾È
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/49993
+// ë¡œì§ ê³ ì•ˆ
 
 #include <string>
 #include <vector>
@@ -17,7 +17,7 @@ int solution(string skill, vector<string> skill_trees) {
 		for (int j = 0; j < s.length(); j++) {//B,A,C,D,E
 			bool exist = false;
 			for (int k = 0; k < skill.length(); k++) {
-				if (s[j] == skill[k]) exist = true;//B°¡ CBD¿¡ ÀÖÀ¸¸é
+				if (s[j] == skill[k]) exist = true;//Bê°€ CBDì— ìˆìœ¼ë©´
 			}
 			if (exist) temp += s[j]; // B,C,D
 		}
@@ -28,8 +28,8 @@ int solution(string skill, vector<string> skill_trees) {
 	for (auto s : new_skill_trees) {
 		int j;
 		for (j =0 ; j < s.length(); j++)
-			if (skill[j] != s[j]) break; // Æ²¸°¹®Àå
-		if (j== s.length()) answer++; //´Ù ºÃ´Âµ¥ ¸Â´Â¹®ÀåÀÌ´Ù
+			if (skill[j] != s[j]) break; // í‹€ë¦°ë¬¸ì¥
+		if (j== s.length()) answer++; //ë‹¤ ë´¤ëŠ”ë° ë§ëŠ”ë¬¸ì¥ì´ë‹¤
 	}
 
 	return answer;

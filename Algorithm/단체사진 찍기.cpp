@@ -1,5 +1,5 @@
-// https://programmers.co.kr/learn/courses/30/lessons/1835
-// ¼ø¿­
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/1835
+// ìˆœì—´
 
 #include <string>
 #include <vector>
@@ -8,20 +8,20 @@
 
 using namespace std;
 
-// Àü¿ª º¯¼ö¸¦ Á¤ÀÇÇÒ °æ¿ì ÇÔ¼ö ³»¿¡ ÃÊ±âÈ­ ÄÚµå¸¦ ²À ÀÛ¼ºÇØÁÖ¼¼¿ä.
+// ì „ì—­ ë³€ìˆ˜ë¥¼ ì •ì˜í•  ê²½ìš° í•¨ìˆ˜ ë‚´ì— ì´ˆê¸°í™” ì½”ë“œë¥¼ ê¼­ ì‘ì„±í•´ì£¼ì„¸ìš”.
 int solution(int n, vector<string> data) {
 	int answer = 0;
 	vector<char> friends = { 'A','C','F','J','M','N','R','T' };
 
-	// ¸ğµç °æ¿ìÀÇ¼ö¸¦ °í·Á. µÉ¶§¸¶´Ù answer+1
-	//8Áß for¹®À» ÇÏ°Å³ª Àç±ÍÇÏ°Å³ª ÇØ¾ßÇÏ¹Ç·Î ¸·¸·..
-	//stlÀÇ next_permutationÇÔ¼ö¸¦ ¾Ë°ÔµÊ
+	// ëª¨ë“  ê²½ìš°ì˜ìˆ˜ë¥¼ ê³ ë ¤. ë ë•Œë§ˆë‹¤ answer+1
+	//8ì¤‘ forë¬¸ì„ í•˜ê±°ë‚˜ ì¬ê·€í•˜ê±°ë‚˜ í•´ì•¼í•˜ë¯€ë¡œ ë§‰ë§‰..
+	//stlì˜ next_permutationí•¨ìˆ˜ë¥¼ ì•Œê²Œë¨
 
 	do {
 		bool satisfy = true;
 
 		for (int i = 0; i < n; i++) {
-			char cmp = data[i].at(3); // substr¸»°í atÀ» ¾¸
+			char cmp = data[i].at(3); // substrë§ê³  atì„ ì”€
 			int itv = data[i].at(4)-'0';
 			int fidx, f2idx;
 

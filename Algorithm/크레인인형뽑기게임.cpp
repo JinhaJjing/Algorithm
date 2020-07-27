@@ -1,4 +1,4 @@
-// https://programmers.co.kr/learn/courses/30/lessons/64061
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/64061
 // stack
 
 #include <string>
@@ -13,14 +13,14 @@ int solution(vector<vector<int>> board, vector<int> moves) {
 
 	for (int i : moves) {
 		for (int j = 0; j < board.size(); j++) {
-			if (board[j][i - 1] != 0) { // ÀÎÇüÀÌ Á¸Àç
+			if (board[j][i - 1] != 0) { // ì¸í˜•ì´ ì¡´ì¬
 				basket.push(board[j][i-1]);
 				board[j][i - 1] = 0;
-				if (basket.size() >= 2) { // ¹Ù±¸´Ï¿¡ 2°³ ÀÌ»óÀÌ¸é È®ÀÎ
+				if (basket.size() >= 2) { // ë°”êµ¬ë‹ˆì— 2ê°œ ì´ìƒì´ë©´ í™•ì¸
 					int top = basket.top();
 					basket.pop();
 
-					if (top == basket.top()) { // 2°³°¡ ¿¬¼Ó
+					if (top == basket.top()) { // 2ê°œê°€ ì—°ì†
 						basket.pop();
 						answer += 2;
 					}

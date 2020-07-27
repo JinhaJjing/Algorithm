@@ -1,5 +1,5 @@
-// https://programmers.co.kr/learn/courses/30/lessons/42626
-// Å¥
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/42626
+// í
 
 #include <string>
 #include <vector>
@@ -15,7 +15,7 @@ int solution(vector<int> scoville, int K) {
 		pq.push(food);
 
 	while (!pq.empty()) {
-		if ((pq.top()>=K)) { //¸ğµç °ÍÀÌ Kº¸´Ù Å©¸é
+		if ((pq.top()>=K)) { //ëª¨ë“  ê²ƒì´ Kë³´ë‹¤ í¬ë©´
 			answer = scoville.size() - pq.size();
 			return answer;
 		}

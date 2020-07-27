@@ -1,4 +1,4 @@
-// https://programmers.co.kr/learn/courses/30/lessons/42586
+Ôªø// https://programmers.co.kr/learn/courses/30/lessons/42586
 // stack, ?
 
 #include <string>
@@ -15,7 +15,7 @@ vector<int> solution(vector<int> progresses, vector<int> speeds) {
 	for (int i = progresses.size()-1; i >=0; i--)
 		prgStack.push(ceil((double)(100 - progresses[i]) / speeds[i]));
 
-	while(!prgStack.empty()) {//Ω∫≈√¿« ≈©±‚∞° ∫Ø«ÿ,,
+	while(!prgStack.empty()) {//Ïä§ÌÉùÏùò ÌÅ¨Í∏∞Í∞Ä Î≥ÄÌï¥,,
 		int top = prgStack.top();
 		prgStack.pop();
 		int funcNum = 1;

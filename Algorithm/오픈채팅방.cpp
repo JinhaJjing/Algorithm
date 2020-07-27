@@ -1,4 +1,4 @@
-// https://programmers.co.kr/learn/courses/30/lessons/42888
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/42888
 // map, string parsing
 
 #include <string>
@@ -39,11 +39,11 @@ vector<string> solution(vector<string> record) {
 		if (action=="Enter") {
 			userId.push_back(uid);
 			usersInfo[uid] = nickname;
-			result.push_back("´ÔÀÌ µé¾î¿Ô½À´Ï´Ù.");
+			result.push_back("ë‹˜ì´ ë“¤ì–´ì™”ìŠµë‹ˆë‹¤.");
 		}
 		else if (action == "Leave") {
 			userId.push_back(uid);
-			result.push_back("´ÔÀÌ ³ª°¬½À´Ï´Ù.");
+			result.push_back("ë‹˜ì´ ë‚˜ê°”ìŠµë‹ˆë‹¤.");
 		}
 		else if (action == "Change") {
 			usersInfo[uid] = nickname;
@@ -60,9 +60,9 @@ vector<string> solution(vector<string> record) {
 int main() {
 	solution({ "Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan" });
 }
-// c++¿¡¼­ string parsingÀº string.hÀÇ strtok¸¦ ÀÌ¿ëÇÑ´Ù±¸ÇÑ´Ù..
-// ÄÄÆÄÀÏ¿À·ù³ª¼­ strtok_s·Î ¹Ù²Ù°í.. ÀÎÀÚµµ ¹Ù²å´Âµ¥
-// ·±Å¸ÀÓ¿À·ù³ª¼­ ¸·ÇûÀ½
-// Ã£¾Æº¸´Ï stringstreamÀ» »ç¿ëÇÑ ¿¹½ÃµéÀÌ ¸¹´Ù(ÆíÇØº¸ÀÓ)
-// ¾î¶»°Ô °íÃÄ¾ßÇÏ´ÂÁö..
-// °í¹ÎÇÏ´Ù ¹«½ÄÇÏ°Ô ÆÄ½ÌÇß´Ù!!
+// c++ì—ì„œ string parsingì€ string.hì˜ strtokë¥¼ ì´ìš©í•œë‹¤êµ¬í•œë‹¤..
+// ì»´íŒŒì¼ì˜¤ë¥˜ë‚˜ì„œ strtok_së¡œ ë°”ê¾¸ê³ .. ì¸ìë„ ë°”ê¿¨ëŠ”ë°
+// ëŸ°íƒ€ì„ì˜¤ë¥˜ë‚˜ì„œ ë§‰í˜”ìŒ
+// ì°¾ì•„ë³´ë‹ˆ stringstreamì„ ì‚¬ìš©í•œ ì˜ˆì‹œë“¤ì´ ë§ë‹¤(í¸í•´ë³´ì„)
+// ì–´ë–»ê²Œ ê³ ì³ì•¼í•˜ëŠ”ì§€..
+// ê³ ë¯¼í•˜ë‹¤ ë¬´ì‹í•˜ê²Œ íŒŒì‹±í–ˆë‹¤!!

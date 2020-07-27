@@ -1,5 +1,5 @@
-// https://programmers.co.kr/learn/courses/30/lessons/17682
-// ¹®ÀÚ¿­
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/17682
+// ë¬¸ìì—´
 
 #include <string>
 #include <vector>
@@ -27,10 +27,10 @@ int solution(string dartResult) {
 		else if (dartResult[i] == '#') {
 			scores[scize - 1] *= (-1);
 		}
-		else { //Á¡¼ö
-			if (dartResult[i + 1] == '0') { //¼ıÀÚ°¡ ³ª¿Ô´Âµ¥ ¶Ç ¼ıÀÚ´Ï±î 10À» ÀÇ¹Ì
+		else { //ì ìˆ˜
+			if (dartResult[i + 1] == '0') { //ìˆ«ìê°€ ë‚˜ì™”ëŠ”ë° ë˜ ìˆ«ìë‹ˆê¹Œ 10ì„ ì˜ë¯¸
 				scores.push_back(10);
-				i++; //µÎÀÚ¸®¸¦ ºÃÀ¸¹Ç·Î
+				i++; //ë‘ìë¦¬ë¥¼ ë´¤ìœ¼ë¯€ë¡œ
 			}
 			else
 				scores.push_back(dartResult[i]-'0');

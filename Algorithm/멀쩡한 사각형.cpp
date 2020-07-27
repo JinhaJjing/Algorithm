@@ -1,5 +1,5 @@
-// https://programmers.co.kr/learn/courses/30/lessons/62048
-// ÆĞÅÏÃ£±â
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/62048
+// íŒ¨í„´ì°¾ê¸°
 
 using namespace std;
 
@@ -17,6 +17,6 @@ long long solution(int w, int h) {
 	}
 	int a = gcd(w, h);
 
-	//ÇÑ ºí·Ï ¾È¿¡¼­´Â (ºí·ÏÀÇ °¡·Î Å©±â + ºí·ÏÀÇ ¼¼·Î Å©±â - 1) ¼ö¸¸Å­ÀÇ »ç°¢Çü À§·Î ¼±ÀÌ Áö³ª°£´Ù.
+	//í•œ ë¸”ë¡ ì•ˆì—ì„œëŠ” (ë¸”ë¡ì˜ ê°€ë¡œ í¬ê¸° + ë¸”ë¡ì˜ ì„¸ë¡œ í¬ê¸° - 1) ìˆ˜ë§Œí¼ì˜ ì‚¬ê°í˜• ìœ„ë¡œ ì„ ì´ ì§€ë‚˜ê°„ë‹¤.
 	return (long long)w * (long long)h - a * (w / a + h / a - 1);
 }

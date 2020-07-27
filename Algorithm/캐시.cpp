@@ -1,5 +1,5 @@
-// https://programmers.co.kr/learn/courses/30/lessons/17680
-// vector find, erase, removeµî
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/17680
+// vector find, erase, removeë“±
 
 #include <string>
 #include <vector>
@@ -26,14 +26,14 @@ int solution(int cacheSize, vector<string> cities) {
 
 	for (int i = 0; i < cities.size(); i++) {
 		if (cacheSize == 0) answer += 5;
-		else if (find_match_index(cityCache, cities[i])!=-1) { // ÀÌ¹Ì ´ã±ä µµ½Ã
-			cityCache.erase(cityCache.begin()+ find_match_index(cityCache, cities[i])); // hitÇÑ °ªÀ» °¡Àå ÃÖ±Ù »ç¿ëÀ¸·Î ¿Ã·ÁÁÜ
+		else if (find_match_index(cityCache, cities[i])!=-1) { // ì´ë¯¸ ë‹´ê¸´ ë„ì‹œ
+			cityCache.erase(cityCache.begin()+ find_match_index(cityCache, cities[i])); // hití•œ ê°’ì„ ê°€ì¥ ìµœê·¼ ì‚¬ìš©ìœ¼ë¡œ ì˜¬ë ¤ì¤Œ
 			cityCache.push_back(cities[i]);
 			answer += 1;
 		}
 		else { 
 			if (cityCache.size() >= cacheSize) {
-				cityCache.erase(cityCache.begin()); // ¸ø´ã´Â °æ¿ì´Â °¡Àå ¿¹Àü¿¡ »ç¿ëÇÑ °ª »èÁ¦ÇÏ°í ´ãÀ½
+				cityCache.erase(cityCache.begin()); // ëª»ë‹´ëŠ” ê²½ìš°ëŠ” ê°€ì¥ ì˜ˆì „ì— ì‚¬ìš©í•œ ê°’ ì‚­ì œí•˜ê³  ë‹´ìŒ
 			}
 			cityCache.push_back(cities[i]);
 			answer += 5;
@@ -41,7 +41,7 @@ int solution(int cacheSize, vector<string> cities) {
 	}
 	return answer;
 }
-// iterator¸¦ »ç¿ëÇÑ findÇÔ¼ö¸¦ ¾²´Â ¹æ¹ıÀ» ÀÍÇô¼­ ½á¸Ô¾îµµ µÊ
+// iteratorë¥¼ ì‚¬ìš©í•œ findí•¨ìˆ˜ë¥¼ ì“°ëŠ” ë°©ë²•ì„ ìµí˜€ì„œ ì¨ë¨¹ì–´ë„ ë¨
 
 int main() {
 	solution(3, { "Jeju", "Pangyo", "Seoul", "NewYork", "LA", "Jeju", "Pangyo", "Seoul", "NewYork", "LA" });

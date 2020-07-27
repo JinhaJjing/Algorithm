@@ -1,5 +1,5 @@
-// https://programmers.co.kr/learn/courses/30/lessons/67256
-// ±¸Çö
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/67256
+// êµ¬í˜„
 
 #include <string>
 #include <vector>
@@ -9,7 +9,7 @@ using namespace std;
 string solution(vector<int> numbers, string hand) {
 	string answer = "";
 
-	//½ÃÇè¶§ Ç®Àº ¹®Á¦
+	//ì‹œí—˜ë•Œ í’€ì€ ë¬¸ì œ
 
 	return answer;
 }

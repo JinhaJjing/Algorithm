@@ -1,4 +1,4 @@
-// https://programmers.co.kr/learn/courses/30/lessons/42890
+ï»¿// https://programmers.co.kr/learn/courses/30/lessons/42890
 // 
 
 #include <string>
@@ -9,13 +9,13 @@ using namespace std;
 int solution(vector<vector<string>> relation) {
 	int answer = 0;
 
-	//³ª¿¡°Õ ¹«¸®¹«¸®µ¥½º..
+	//ë‚˜ì—ê² ë¬´ë¦¬ë¬´ë¦¬ë°ìŠ¤..
 
-	//ÇÏ³ªÂ¥¸®, µÎ°³Â¥¸®,¼¼°³Â¥¸®..
+	//í•˜ë‚˜ì§œë¦¬, ë‘ê°œì§œë¦¬,ì„¸ê°œì§œë¦¬..
 
 
 
-	//ÈÄº¸Å° ¸®½ºÆ®¿¡ ±× Áß Æ÷ÇÔ°ü°è°¡ µÇ¸é ÈÄº¸Å°·Î Ãß°¡ ¸øÇÔ
+	//í›„ë³´í‚¤ ë¦¬ìŠ¤íŠ¸ì— ê·¸ ì¤‘ í¬í•¨ê´€ê³„ê°€ ë˜ë©´ í›„ë³´í‚¤ë¡œ ì¶”ê°€ ëª»í•¨
 
 
 
