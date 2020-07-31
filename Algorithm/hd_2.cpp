@@ -4,6 +4,8 @@
 
 using namespace std;
 
+//다시 풀기
+
 int solution(vector<string> ip_addrs, vector<string> langs, vector<int> scores) {
     int good_participants=0;
 
