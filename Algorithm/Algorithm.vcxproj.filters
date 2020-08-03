@@ -105,12 +105,6 @@
     <ClCompile Include="다리를 지나는 트럭.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="프린터.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="수영장.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="탑.cpp">
       <Filter>소스 파일\해결</Filter>
     </ClCompile>
@@ -137,6 +131,21 @@
     </ClCompile>
     <ClCompile Include="보호 필름.cpp">
       <Filter>소스 파일\나중에</Filter>
+    </ClCompile>
+    <ClCompile Include="프린터.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="위장.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="수영장.cpp">
+      <Filter>소스 파일\나중에</Filter>
+    </ClCompile>
+    <ClCompile Include="베스트앨범.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="디스크 컨트롤러.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

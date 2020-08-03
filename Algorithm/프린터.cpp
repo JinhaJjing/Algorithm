@@ -1,5 +1,5 @@
 ﻿// https://programmers.co.kr/learn/courses/30/lessons/42587
-// 큐
+// (우선순위)큐
 
 #include <string>
 #include <vector>
@@ -18,16 +18,29 @@ int solution(vector<int> priorities, int location) {
 		inputs.push(make_pair(i, p));
 	}
 
-	while (inputs.empty()) {
+	while (!inputs.empty()) {
 		int curidx = inputs.front().first;
 		int curprior = inputs.front().second;
 
-		// TODO
-
-
+		// 가장 중요한 프린터
+		if (curprior == pq.top()) {
+			answer++;
+			pq.pop();
+			inputs.pop();
+			if (curidx == location)
+				break;
+		}
+		else {
+			inputs.pop();
+			inputs.push(make_pair(curidx, curprior));
+		}
 	}
-
 
 	return answer;
 }
-//내가 요청한 문서의 인덱스는 바뀌기 때문에 인덱스를 변화하려고 하니까 넘 복잡
+//첨에 생각한 방식은 요청한 문서의 인덱스는 바뀌기 때문에 인덱스를 변화하려고 하니까 넘 복잡
+
+int main() {
+	solution({ 2,1,3,2 }, 2);
+	solution({ 1,1,9,1,1 }, 0);
+}
