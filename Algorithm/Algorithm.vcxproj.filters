@@ -24,127 +24,139 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="기능개발.cpp">
+    <ClCompile Include="Unsolved\hd_2.cpp">
+      <Filter>소스 파일\나중에</Filter>
+    </ClCompile>
+    <ClCompile Include="Unsolved\n진수 게임.cpp">
+      <Filter>소스 파일\나중에</Filter>
+    </ClCompile>
+    <ClCompile Include="Unsolved\괄호 변환.cpp">
+      <Filter>소스 파일\나중에</Filter>
+    </ClCompile>
+    <ClCompile Include="Unsolved\수영장.cpp">
+      <Filter>소스 파일\나중에</Filter>
+    </ClCompile>
+    <ClCompile Include="Unsolved\보호 필름.cpp">
+      <Filter>소스 파일\나중에</Filter>
+    </ClCompile>
+    <ClCompile Include="Unsolved\쇠막대기.cpp">
+      <Filter>소스 파일\나중에</Filter>
+    </ClCompile>
+    <ClCompile Include="Unsolved\튜플.cpp">
+      <Filter>소스 파일\나중에</Filter>
+    </ClCompile>
+    <ClCompile Include="Unsolved\후보키.cpp">
+      <Filter>소스 파일\나중에</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\방금그곡.cpp">
       <Filter>소스 파일\미해결</Filter>
     </ClCompile>
-    <ClCompile Include="튜플.cpp">
-      <Filter>소스 파일\나중에</Filter>
-    </ClCompile>
-    <ClCompile Include="수식 최대화.cpp">
+    <ClCompile Include="Later\압축.cpp">
       <Filter>소스 파일\미해결</Filter>
     </ClCompile>
-    <ClCompile Include="오픈채팅방.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="다트게임.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="단체사진 찍기.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="더맵게.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="멀쩡한 사각형.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="문자열압축.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="스킬트리.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="실패율.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="영어 끝말잇기.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="예산.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="카카오프렌즈 컬러링북.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="캐시.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="크레인인형뽑기게임.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="폰켓몬.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="프렌즈4블록.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="괄호 변환.cpp">
-      <Filter>소스 파일\나중에</Filter>
-    </ClCompile>
-    <ClCompile Include="후보키.cpp">
-      <Filter>소스 파일\나중에</Filter>
-    </ClCompile>
-    <ClCompile Include="방금그곡.cpp">
+    <ClCompile Include="Later\수식 최대화.cpp">
       <Filter>소스 파일\미해결</Filter>
     </ClCompile>
-    <ClCompile Include="압축.cpp">
+    <ClCompile Include="Later\기능개발.cpp">
       <Filter>소스 파일\미해결</Filter>
     </ClCompile>
-    <ClCompile Include="쇠막대기.cpp">
-      <Filter>소스 파일\나중에</Filter>
-    </ClCompile>
-    <ClCompile Include="파일명 정렬.cpp">
+    <ClCompile Include="Solved\다트게임.cpp">
       <Filter>소스 파일\해결</Filter>
     </ClCompile>
-    <ClCompile Include="n진수 게임.cpp">
-      <Filter>소스 파일\나중에</Filter>
-    </ClCompile>
-    <ClCompile Include="키패드 누르기.cpp">
+    <ClCompile Include="Solved\단체사진 찍기.cpp">
       <Filter>소스 파일\해결</Filter>
     </ClCompile>
-    <ClCompile Include="다리를 지나는 트럭.cpp">
+    <ClCompile Include="Solved\더맵게.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\동일한 자석.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\등산로 조성.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\디저트 카페.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\멀쩡한 사각형.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\문자열압축.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\베스트앨범.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\석찬이의 받아쓰기.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\스킬트리.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\실패율.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\영어 끝말잇기.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\예산.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\오픈채팅방.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\위장.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\진용이네 주차타워.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\카카오프렌즈 컬러링북.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\캐시.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\크레인인형뽑기게임.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\키패드 누르기.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\탈주범 검거.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\탑.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\파일명 정렬.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\폰켓몬.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\프렌즈4블록.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\프린터.cpp">
+      <Filter>소스 파일\해결</Filter>
+    </ClCompile>
+    <ClCompile Include="Solving\다리를 지나는 트럭.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="탑.cpp">
-      <Filter>소스 파일\해결</Filter>
+    <ClCompile Include="Unsolved\디스크 컨트롤러.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="탈주범 검거.cpp">
-      <Filter>소스 파일\해결</Filter>
+    <ClCompile Include="Solved\K번째수.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="진용이네 주차타워.cpp">
-      <Filter>소스 파일\해결</Filter>
+    <ClCompile Include="Unsolved\가장 큰 수.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="석찬이의 받아쓰기.cpp">
-      <Filter>소스 파일\해결</Filter>
+    <ClCompile Include="Solved\모의고사.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="디저트 카페.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="등산로 조성.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="동일한 자석.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="hd_2.cpp">
-      <Filter>소스 파일\나중에</Filter>
-    </ClCompile>
-    <ClCompile Include="보호 필름.cpp">
-      <Filter>소스 파일\나중에</Filter>
-    </ClCompile>
-    <ClCompile Include="프린터.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="위장.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="수영장.cpp">
-      <Filter>소스 파일\나중에</Filter>
-    </ClCompile>
-    <ClCompile Include="베스트앨범.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="디스크 컨트롤러.cpp">
+    <ClCompile Include="Solving\소수 찾기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

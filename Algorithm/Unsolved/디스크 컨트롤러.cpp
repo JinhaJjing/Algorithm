@@ -1,4 +1,7 @@
-﻿#include <string>
+﻿// https://programmers.co.kr/learn/courses/30/lessons/42627
+// (priority)queue
+
+#include <string>
 #include <vector>
 #include <queue>
 
@@ -8,13 +11,13 @@ int solution(vector<vector<int>> jobs) {
 	int answer = 0;
 	priority_queue<int> pq;
 
-	// TODO
+	// TODO : 해결방법을 모르겠다..!
 
 	for (int i = 0; i < jobs.size(); i++) {
 		
 	}
 
-
+	
 
 	return answer;
 }
