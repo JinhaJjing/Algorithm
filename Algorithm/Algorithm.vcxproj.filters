@@ -156,7 +156,16 @@
     <ClCompile Include="Solved\모의고사.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Solving\소수 찾기.cpp">
+    <ClCompile Include="Solved\소수 찾기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\카펫.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Unsolved\체육복.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\큰 수 만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
