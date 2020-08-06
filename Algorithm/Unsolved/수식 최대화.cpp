@@ -10,9 +10,7 @@
 
 using namespace std;
 
-
-// 뭐가 틀린건지 못찾겠ㄷ ㅏ 꾀 꼬ㄹ ㅣ
-
+// TODO : idk what's wrong
 
 int findOperationPrior(vector<char> operations, char operation) {
 	for (int i = 0; i < operations.size();i++) {

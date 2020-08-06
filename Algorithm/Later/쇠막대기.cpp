@@ -5,9 +5,9 @@
 #include <vector>
 #include <stack>
 
-using namespace std;
+//TODO : 스택 hard
 
-//고수가 되어서 무찌르기
+using namespace std;
 
 int solution(string arrangement) {
 	int answer = 0;

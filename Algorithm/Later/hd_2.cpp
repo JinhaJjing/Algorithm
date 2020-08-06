@@ -1,10 +1,11 @@
-// 2
+// 
+
 #include <string>
 #include <vector>
 
-using namespace std;
+// TODO : keep trying
 
-//다시 풀기
+using namespace std;
 
 int solution(vector<string> ip_addrs, vector<string> langs, vector<int> scores) {
     int good_participants=0;

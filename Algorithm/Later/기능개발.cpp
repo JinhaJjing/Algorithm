@@ -6,6 +6,8 @@
 #include <stack>
 #include <cmath>
 
+// TODO : try another way
+
 using namespace std;
 
 vector<int> solution(vector<int> progresses, vector<int> speeds) {

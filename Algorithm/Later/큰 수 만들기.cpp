@@ -5,12 +5,12 @@
 #include <vector>
 #include <algorithm>
 
+// TODO : greedy 기본(백준) 먼저 풀고 풀이
+
 using namespace std;
 
 string solution(string number, int k) {
 	string answer = "";
-
-	// greedy 기본(백준) 먼저 풀고오기
 
 	return answer;
 }

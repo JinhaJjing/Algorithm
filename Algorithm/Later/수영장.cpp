@@ -4,10 +4,10 @@
 #include<iostream>
 #include<algorithm>
 
+// TODO : dfs? hard
+
 using namespace std;
 
 int main() {
-	// TODO : dfs? hard
-
 	return 0;
 }

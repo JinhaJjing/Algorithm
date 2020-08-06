@@ -4,6 +4,8 @@
 #include<iostream>
 #include<algorithm>
 
+//TODO : pause
+
 using namespace std;
 
 int film[13][20];

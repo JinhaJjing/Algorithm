@@ -4,9 +4,9 @@
 #include <vector>
 #include <algorithm>
 
-using namespace std;
+// TODO : 다시 풀이
 
-// 담에 다시 풀기
+using namespace std;
 
 vector<int> solution(string msg) {
 	vector<int> answer;

@@ -4,6 +4,8 @@
 #include <string>
 #include <vector>
 
+//TODO : feel lazy
+
 using namespace std;
 
 string solution(int n, int t, int m, int p) {
@@ -13,7 +15,6 @@ string solution(int n, int t, int m, int p) {
 	bool flag = true;
 
 	//ex) 16 4 ->16/4=4...0 4/4=1...0 1/4=0...1 -> 100
-	//귀찮. 미룸
 
 	return answer;
 }
