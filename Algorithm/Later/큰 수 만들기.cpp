@@ -6,6 +6,7 @@
 #include <algorithm>
 
 // TODO : greedy 기본(백준) 먼저 풀고 풀이
+// 다른 greedy 문제들도
 
 using namespace std;
 
