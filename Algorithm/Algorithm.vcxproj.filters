@@ -186,10 +186,10 @@
     <ClCompile Include="Solved\타겟 넘버.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Solving\네트워크.cpp">
+    <ClCompile Include="Solving\단어 변환.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Solving\단어 변환.cpp">
+    <ClCompile Include="Solved\네트워크.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -23,29 +23,19 @@ void dfs(int cnt, vector<string> words, vector<bool> visited, string begin, stri
 				}
 				//target미완성
 				else {
-					//단어를 사용했다 체크하고 재귀
 					visited[i] = true;
-					dfs(cnt + 1);
-					//함수를 나온경우 단어사용여부 해제
+					dfs(cnt + 1, words, visited, words[i],target);
+					//함수를 호출하고 해당 단어는 선택해제
 					visited[i] = false;
 				}
 			}
 		}
 	}
-
-	answer = cnt < answer ? cnt : answer;
 }
-
 
 int solution(string begin, string target, vector<string> words) {
 	vector<bool> visited(50);
-
-	for (int i = 0; i < words.size(); i++) {
-		if (!visited[i]) {
-			int count = 0;
-			dfs(count, words, visited);
-		}
-	}
+	dfs(0, words, visited, begin, target);
 
 	return answer;
 }
