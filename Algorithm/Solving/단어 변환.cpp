@@ -36,6 +36,9 @@ void dfs(int cnt, vector<string> words, vector<bool> visited, string begin, stri
 int solution(string begin, string target, vector<string> words) {
 	vector<bool> visited(50);
 	dfs(0, words, visited, begin, target);
-
 	return answer;
+}
+
+int main() {
+	solution("dog", "cat", { "dog","dag","cag","cat" });
 }
