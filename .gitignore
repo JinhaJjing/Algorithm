@@ -261,3 +261,4 @@ __pycache__/
 *.pyc
 /Algorithm/Solving/네트워크.cpp
 /Algorithm/Solving/단어 변환.cpp
+/Algorithm/Unsolved/보석 쇼핑.cpp
