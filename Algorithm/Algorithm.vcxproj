@@ -55,6 +55,7 @@
     <ClCompile Include="Later\여행경로.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Solving\경주로 건설.cpp" />
     <ClCompile Include="Unsolved\보석 쇼핑.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
