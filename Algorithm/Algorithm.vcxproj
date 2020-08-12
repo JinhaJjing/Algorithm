@@ -61,6 +61,7 @@
     <ClCompile Include="Solved\짝지어 제거하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Solving\단어 퍼즐.cpp" />
     <ClCompile Include="Unsolved\경주로 건설.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
