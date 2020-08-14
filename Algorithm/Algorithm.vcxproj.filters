@@ -24,9 +24,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Unsolved\괄호 변환.cpp">
-      <Filter>소스 파일\나중에</Filter>
-    </ClCompile>
     <ClCompile Include="Later\압축.cpp">
       <Filter>소스 파일\미해결</Filter>
     </ClCompile>
@@ -113,9 +110,6 @@
     </ClCompile>
     <ClCompile Include="Solved\프린터.cpp">
       <Filter>소스 파일\해결</Filter>
-    </ClCompile>
-    <ClCompile Include="Unsolved\디스크 컨트롤러.cpp">
-      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Solved\K번째수.cpp">
       <Filter>소스 파일</Filter>
@@ -216,7 +210,13 @@
     <ClCompile Include="Solved\게임 맵 최단거리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Solving\지형 이동.cpp">
+    <ClCompile Include="Later\지형 이동.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\괄호 변환.cpp">
+      <Filter>소스 파일\나중에</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\디스크 컨트롤러.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
