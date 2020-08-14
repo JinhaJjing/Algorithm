@@ -141,9 +141,6 @@
     <ClCompile Include="Later\n진수 게임.cpp">
       <Filter>소스 파일\나중에</Filter>
     </ClCompile>
-    <ClCompile Include="Later\hd_2.cpp">
-      <Filter>소스 파일\나중에</Filter>
-    </ClCompile>
     <ClCompile Include="Later\보호 필름.cpp">
       <Filter>소스 파일\나중에</Filter>
     </ClCompile>
@@ -218,6 +215,12 @@
     </ClCompile>
     <ClCompile Include="Later\디스크 컨트롤러.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solving\방문 길이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Unsolved\hd_2.cpp">
+      <Filter>소스 파일\나중에</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
