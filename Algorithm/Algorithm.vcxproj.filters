@@ -24,9 +24,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Unsolved\괄호 변환.cpp">
-      <Filter>소스 파일\나중에</Filter>
-    </ClCompile>
     <ClCompile Include="Later\압축.cpp">
       <Filter>소스 파일\미해결</Filter>
     </ClCompile>
@@ -114,9 +111,6 @@
     <ClCompile Include="Solved\프린터.cpp">
       <Filter>소스 파일\해결</Filter>
     </ClCompile>
-    <ClCompile Include="Unsolved\디스크 컨트롤러.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Solved\K번째수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -145,9 +139,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Later\n진수 게임.cpp">
-      <Filter>소스 파일\나중에</Filter>
-    </ClCompile>
-    <ClCompile Include="Later\hd_2.cpp">
       <Filter>소스 파일\나중에</Filter>
     </ClCompile>
     <ClCompile Include="Later\보호 필름.cpp">
@@ -186,10 +177,52 @@
     <ClCompile Include="Solved\타겟 넘버.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Solving\단어 변환.cpp">
+    <ClCompile Include="Solved\네트워크.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Solved\네트워크.cpp">
+    <ClCompile Include="Unsolved\단어 변환.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\여행경로.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Unsolved\보석 쇼핑.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Unsolved\경주로 건설.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\동굴 탐험.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\짝지어 제거하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Unsolved\단어 퍼즐.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\사칙연산.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\게임 맵 최단거리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\지형 이동.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\괄호 변환.cpp">
+      <Filter>소스 파일\나중에</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\디스크 컨트롤러.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Unsolved\hd_2.cpp">
+      <Filter>소스 파일\나중에</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\방문 길이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\쿠키 구입.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
