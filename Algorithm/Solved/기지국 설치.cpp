@@ -13,7 +13,7 @@ using namespace std;
 
 int solution(int n, vector<int> stations, int w)
 {
-	int answer = stations.size();
+	int answer = 0;
 
 	int start = 0;
 	for (int i = 0; i < stations.size(); i++) {
@@ -28,7 +28,7 @@ int solution(int n, vector<int> stations, int w)
 		}
 	}
 
-	int len = n - stations[n] + w + 1;
+	int len = n - stations[stations.size() -1] - w;
 	if (len > 0) {
 		answer += len / (2 * w + 1);
 		if ((len % (2 * w + 1)) != 0)
@@ -39,5 +39,6 @@ int solution(int n, vector<int> stations, int w)
 }
 
 int main() {
-	solution(11, { 4, 11 }, 1);
+	//solution(11, { 4, 11 }, 1);
+	solution(16, { 9 }, 2);
 }

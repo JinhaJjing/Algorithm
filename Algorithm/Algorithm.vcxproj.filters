@@ -225,13 +225,13 @@
     <ClCompile Include="Solved\쿠키 구입.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Solving\기지국 설치.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Solved\소수 만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Later\스티커 모으기(2).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\기지국 설치.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
