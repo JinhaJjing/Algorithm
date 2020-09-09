@@ -87,9 +87,6 @@
     <ClCompile Include="Solved\캐시.cpp">
       <Filter>소스 파일\해결</Filter>
     </ClCompile>
-    <ClCompile Include="Solved\크레인인형뽑기게임.cpp">
-      <Filter>소스 파일\해결</Filter>
-    </ClCompile>
     <ClCompile Include="Solved\키패드 누르기.cpp">
       <Filter>소스 파일\해결</Filter>
     </ClCompile>
@@ -250,6 +247,21 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Solved\카드.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\보행자 천국.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\리틀 프렌즈 사천성.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\불량 사용자.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\괄호.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\크레인 인형뽑기 게임.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
