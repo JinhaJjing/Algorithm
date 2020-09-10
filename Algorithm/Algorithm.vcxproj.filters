@@ -267,5 +267,20 @@
     <ClCompile Include="Solved\에디터.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Solved\요세푸스 문제2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\프머1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\프머2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\프머3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Later\프머4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
