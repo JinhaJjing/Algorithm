@@ -141,9 +141,6 @@
     <ClCompile Include="Later\보호 필름.cpp">
       <Filter>소스 파일\나중에</Filter>
     </ClCompile>
-    <ClCompile Include="Later\쇠막대기.cpp">
-      <Filter>소스 파일\나중에</Filter>
-    </ClCompile>
     <ClCompile Include="Later\수영장.cpp">
       <Filter>소스 파일\나중에</Filter>
     </ClCompile>
@@ -263,6 +260,9 @@
     </ClCompile>
     <ClCompile Include="Solved\크레인 인형뽑기 게임.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\쇠막대기.cpp">
+      <Filter>소스 파일\나중에</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
