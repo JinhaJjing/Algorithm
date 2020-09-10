@@ -264,5 +264,8 @@
     <ClCompile Include="Solved\쇠막대기.cpp">
       <Filter>소스 파일\나중에</Filter>
     </ClCompile>
+    <ClCompile Include="Solved\에디터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
