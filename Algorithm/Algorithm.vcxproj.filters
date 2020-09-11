@@ -285,5 +285,8 @@
     <ClCompile Include="Solved\골드바흐의 추측.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Unsolved\징검다리 건너기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
