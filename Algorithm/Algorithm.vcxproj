@@ -145,7 +145,7 @@
     <ClCompile Include="Solved\kk3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Solving\호텔 방 배정.cpp">
+    <ClCompile Include="Unsolved\호텔 방 배정.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Unsolved\징검다리 건너기.cpp">
