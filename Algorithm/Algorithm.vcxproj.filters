@@ -300,5 +300,8 @@
     <ClCompile Include="Unsolved\호텔 방 배정.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Solved\DFS와 BFS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
