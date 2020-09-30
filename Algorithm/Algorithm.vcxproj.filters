@@ -306,5 +306,8 @@
     <ClCompile Include="Solved\연결 요소의 개수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Solved\이분 그래프.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
