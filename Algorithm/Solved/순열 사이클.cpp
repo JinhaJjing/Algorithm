@@ -1,6 +1,7 @@
 // https://www.acmicpc.net/problem/10451
-// BFS
+// BFS or DFS
 
+/*
 #include <iostream>
 #include <string>
 #include <vector>
@@ -63,6 +64,61 @@ int main() {
 					exist = true;
 					break;
 				}
+			}
+		}
+
+		cout << answer << "\n";
+		//모든 값 0으로 초기화
+		answer = 0;
+		memset(map, 0, sizeof(map));
+		memset(visited, 0, sizeof(visited));
+	}
+
+	return 0;
+}
+*/
+
+#include <iostream>
+#include <string>
+#include <vector>
+#include <string.h>
+#define MAX 1001
+
+using namespace std;
+
+vector<int> map[MAX];
+int visited[MAX];
+int T, N, M, answer = 0;
+
+void dfs(int root) {
+	if (visited[root]) return;
+	// 1. root 노드 방문
+	visited[root]=1; // 1-1. 방문한 노드를 표시
+	// 2. root 노드와 인접한 정점을 모두 방문
+	for (int i = 0; i < map[root].size(); i++) {
+		int next = map[root][i];
+		dfs(next);
+	}
+}
+
+int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+
+	cin >> T;
+	for (int t = 0; t < T; t++) {
+		cin >> N;
+		for (int n = 0; n < N; n++) {
+			int v;
+			cin >> v;
+			map[n + 1][v] = 1;
+		}
+
+		for (int i = 1; i <= N; i++) {
+			if (!visited[i]) { //방문하지 않은 노드가 있다면
+				dfs(i);
+				answer++;
 			}
 		}
 
