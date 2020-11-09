@@ -312,10 +312,10 @@
     <ClCompile Include="Solved\순열 사이클.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Solving\텀 프로젝트.cpp">
+    <ClCompile Include="Solved\유기농 배추.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Solved\유기농 배추.cpp">
+    <ClCompile Include="Solved\텀 프로젝트.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
