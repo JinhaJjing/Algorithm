@@ -12,7 +12,6 @@ int main() {
 
     if (n <= 2)
         cout << 1 << "\n";
-
     else
     {
         for (int i = 3; i <= n; i++)
@@ -20,7 +19,6 @@ int main() {
             d[i][0] = d[i - 1][0] + d[i - 1][1];
             d[i][1] = d[i - 1][0];
         }
-
         cout << d[n][0] + d[n][1] << "\n";
     }
 }
