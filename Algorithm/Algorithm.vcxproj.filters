@@ -270,7 +270,7 @@
     <ClCompile Include="Solved\피보나치 함수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Solving\스티커.cpp">
+    <ClCompile Include="Later\스티커.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Solved\01타일.cpp">
@@ -285,7 +285,13 @@
     <ClCompile Include="Unsolved\쉬운 계단 수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Solving\개근상.cpp">
+    <ClCompile Include="Solving\N으로 표현.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\백준1002.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solving\SWEA2667.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
